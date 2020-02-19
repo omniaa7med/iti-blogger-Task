@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-section__boxcontent{
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 0;
+    align-items: center;
+}
+.header-section__logo a h2{
+    font-size: 30px;
+}
+.header-section__signup a{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 15px;
+}
+.header-section__signup a:hover{
+    background-color: #85d6bf;
+}
+nav{
+    background-color: #85d6bf;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 1% 0;
+}
+nav ul li a:hover{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 15px;
+
+}
+.header-section__hero{
+    background-color: gray;
+}
+.header-section-hero__container{
+    margin: 0 80px;
+    padding: 5% 0;
+    width: 60%;
+}
+header h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 2%;
+}
+header p{
+    color: white;
+    opacity: .7;
+}
+.blog-article-item{
+    border: 3px solid #85d6bf;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 3%;
+    box-shadow: 1px 2px 4px 0 gray;
+}
+article{
+    font-size: 30px; 
+    padding: 3% ;
+    margin: 0 80px;
+}
+
+/* ---------------------------------------LOGIN STYLE--------------------------------------------- */
+
+#login a{
+    text-decoration: none;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+#login .login__logo h1{
+    font-size: 60px;
+    background-color: #85d6bf;
+    color: white;
+    width: 40%;
+    border-radius: 15px;
+    margin-left: 30%;
+    box-shadow: 1px 2px 4px 0 gray;
+
+}
+#login h2{
+    font-size: 30px;
+    color: gray;
+    padding: 10px 0;
+}
+#login{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    padding: 10% 0 10% 0;
+
+}
+#login #email{
+    margin-bottom: 10px;
+    padding-left: 5px;
+    border-radius: 20px;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+}
+
+#login #password{
+    margin-bottom: 10px;
+    padding-left: 5px;
+    border-radius: 20px;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+#login button{
+    border: none;
+    background-color: #85d6bf;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+/* --------------------------------------EDIT POST STYLE---------------------------------------------- */
+
+
+#form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+#form textarea{
+    width: 70%;
+    height: 120px;
+    border-radius: 30px;
+    border: 2px solid #85d6bf;
+    color: gray;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+#form h2{
+    color: #85d6bf;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+#form a{
+    background-color: gray;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+/* ---------------------------------MANAGE POST STYLE---------------------------------------- */
+
+table{
+    text-align: center;
+    padding: 5%;
+    font-size: 20px;
+}
+tr{
+    border: 3px solid #85d6bf;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 2%;
+}
+td,th {
+    border: 1px solid #85d6bf;
+    padding: 8px;
+    text-align: center;
+}
+td:nth-child(3) ,th:nth-child(3){
+    width: 15%;
+}
+  
+tr:nth-child(even){
+    background-color: #85d6bf;
+    color: white;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+td button,td a{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 5px ;
+}
+td button:hover,td a:hover{
+    background-color: white;
+    color: #85d6bf;
+    border: 2px solid #85d6bf;
+}
